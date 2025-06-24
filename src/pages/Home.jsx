@@ -27,7 +27,7 @@ const Home = () => {
           <div className="bg-white p-6 rounded shadow-lg">
             <div className="mb-4">
               <img
-                src="/src/assets/profil_awa.jpg"
+                src="/profil_awa.jpg"
                 alt="profil"
                 onError={(e) => {
                   e.target.onerror = null;
@@ -67,7 +67,7 @@ const Home = () => {
                         rel="noopener noreferrer"
                       >
                         <img
-                          src="/src/assets/link_icon.png"
+                          src="/link_icon.png"
                           alt="link"
                           className="w-6 h-6"
                         />
@@ -103,13 +103,9 @@ const Home = () => {
             <div>
               <h3 className="text-lg font-semibold">Frontend Developer</h3>
               <div className="flex space-x-2 my-2">
-                <img src="/src/assets/html.png" alt="html" className="h-10" />
-                <img src="/src/assets/css.png" alt="css" className="h-10" />
-                <img
-                  src="/src/assets/javascript.png"
-                  alt="js"
-                  className="h-10"
-                />
+                <img src="/html.png" alt="html" className="h-10" />
+                <img src="/css.png" alt="css" className="h-10" />
+                <img src="/javascript.png" alt="js" className="h-10" />
               </div>
               <p className="text-gray-600">
                 Dedicated frontend developer skilled in building responsive,
@@ -123,7 +119,7 @@ const Home = () => {
             <div>
               <h3 className="text-lg font-semibold">Backend Developer</h3>
               <div className="flex space-x-2 my-2">
-                <img src="/src/assets/nodejs.png" alt="node" className="h-10" />
+                <img src="/nodejs.png" alt="node" className="h-10" />
               </div>
               <p className="text-gray-600">
                 Experienced in developing robust server-side applications using

@@ -29,7 +29,7 @@ export default function ContactPage() {
       {/* Contact Form */}
       <section className="flex flex-col items-center justify-center px-4 py-10">
         <div className="mb-8">
-          <img src="/src/assets/Logo.jpg" alt="logo" className="h-20" />
+          <img src="/Logo.jpg" alt="logo" className="h-20" />
         </div>
         <div className="w-full max-w-lg bg-white p-8 rounded shadow-md">
           <form onSubmit={sendEmail}>

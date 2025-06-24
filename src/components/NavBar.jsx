@@ -7,7 +7,7 @@ const NavBar = () => {
       <nav className="bg-black flex justify-between items-center px-[50px] py-3">
         <div className="flex items-center gap-10">
           <a href="/">
-            <img src="/src/assets/Logo.jpg" alt="nav-logo" className="h-10" />
+            <img src="/public/Logo.jpg" alt="nav-logo" className="h-10" />
           </a>
           <a
             href="/"
